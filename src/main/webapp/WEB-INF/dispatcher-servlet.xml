@@ -16,7 +16,7 @@ http://www.springframework.org/schema/mvc/spring-mvc.xsd">
 	<bean id="viewResolver"
 		class="org.springframework.web.servlet.view.InternalResourceViewResolver">
 		<property name="suffix" value=".jsp" />
-		<property name="prefix" value="/WEB-INF/pages/" />
+		<property name="prefix" value="/pages/" />
 	</bean>
 
 
